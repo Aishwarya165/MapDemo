@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:background="#000000"
+    android:padding="10dp"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+   <LinearLayout
+
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#330066"
+    android:padding="5dp"
+    android:orientation="horizontal">
+
+       <TextView
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:textSize="30dp"
+       android:textColor="#FFFFFF"
+       android:text="My Location"/>
+
+  </LinearLayout>
+
+   <fragment
+      android:layout_width="match_parent"
+      android:layout_height="650dp"
+      android:id="@+id/google_map"
+      android:name="com.google.android.gms.maps.SupportMapFragment"/>
+
+   <Button
+       android:id="@+id/btn"
+       android:layout_width="wrap_content"
+       android:layout_gravity="center"
+       android:layout_marginTop="10dp"
+       android:background="#330066"
+       android:padding="10dp"
+       android:textColor="#FFFFFF"
+       android:layout_height="wrap_content"
+       android:text="Location Details "/>
+
+</LinearLayout>
