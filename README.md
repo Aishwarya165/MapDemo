@@ -1,5 +1,4 @@
-# MapDemo
-Used to get our Current Location , Latitude and Longitude.
+
 
 ![image](https://user-images.githubusercontent.com/66171389/129230727-9e010fea-4859-4088-b890-30d3d6e52793.png)
 
